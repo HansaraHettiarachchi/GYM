@@ -1,0 +1,47 @@
+  .search-container {
+    position: relative;
+  }
+
+  .search-close {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    display: none;
+  }
+
+  .form-select.ps-3.no-border {
+    border: none !important;
+  }
+
+  @media print {
+
+    .container {
+      width: 100%;
+    }
+
+    .table {
+      border: 0;
+    }
+
+    body {
+      -webkit-print-color-adjust: exact !important;
+      print-color-adjust: exact !important;
+    }
+
+    .repotTable thead {
+      background-color: rgba(207, 207, 207, 0.64) !important;
+    }
+  }
+
+
+
+
+
+  .headCss {
+    display: flex;
+    position: absolute;
+    justify-content: end;
+    margin-right: 100px;
+  }
